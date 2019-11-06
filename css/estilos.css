@@ -1,0 +1,173 @@
+body {
+	padding-top: 56px;
+}
+/*---vavegacion---*/
+a{
+	color: black;
+}
+a:hover{
+	color: #46b04d;
+}
+
+nav img {
+	width: 30px;
+	height: 30px;
+}
+/*---slider---*/
+.slider{
+	/*padding: 8rem 15px;
+	background-image: url(../img/perro1.jpg);
+	background-size: 100% 190%;
+	background-attachment: scroll;*/
+}
+.slider .yellow{
+	color: #ffb614;
+}
+.slider .btn{
+	background: #ffb614;
+	color: #fff;
+}
+.slider .btn:hover{
+	background: #fff;
+	color: #3A1564;
+}
+}
+/*---servicio estetica---*/
+#back{
+	background-image: url(../img/bg1.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+/*#back:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	background: linear-gradient(90deg,#52c4fd,#ad55c1);
+	position: absolute;
+	opacity: 0.5;
+	
+}*/
+#estetica{
+	padding: 4rem 15px;
+}
+
+/* ---servicio veterinaria--- */
+/*contenedor del icono*/
+#veterinaria{
+	padding: 4rem 15px;
+}
+#veterinaria .icon-wrap {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #46b04d;
+  border-radius: 125px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/*icono*/
+#veterinaria .icon-wrap svg {
+  text-align: center;
+  color: #ffffff;
+  font-size: 620%;
+  padding: 30%;
+}
+/*---galeria---*/
+#galeria img {
+	width: 100%;/*ancho*/
+	height: 95%; /*altura*/
+	/*border: 5px solid #ccc;*/
+	border-radius: 5px; /*redondear la imagen*/
+	/*padding-bottom: 2px;*/
+	/*margin-bottom: 5px;*/
+}
+#galeria{
+	padding: 4rem 15px;
+}
+/*---contacto---*/
+#contacto{
+	background: #ffb614;
+	/*padding: 4rem 60px;*/
+}
+#contacto iframe{
+    height: 150px;
+	width: 300px;
+}
+#contacto .icon-wrap {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  background-color: #46b04d;
+  border-radius: 125px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/*icono*/
+#contacto .icon-wrap svg {
+  text-align: center;
+  color: #ffffff;
+  font-size: 180%;
+  padding: 5%;
+}
+/*centro de carga inicial*/
+*,*:after, *:before{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+#contenedor_carga{
+	background-color: rgba(250,240,245,0.9);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	z-index:10000;	
+}
+
+#contenedor_carga img {
+	width: 100px;
+	height: 100px;
+	
+	position: absolute;
+	top: -70%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+/*
+#carga{
+	border: 5px solid #ccc;
+	border-top-color: #f4266a;
+	border-top-style: groove;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	-webkit-animation: girar .8s linear infinite;
+	-o-animation: girar .8s linear infinite;
+	animation: girar .8s linear infinite;
+}
+@keyframes girar {
+	from { transform: rotate(0deg);}
+	to { transform: rotate(360deg);}
+}*/
+
+
+
+
+
+
